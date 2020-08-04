@@ -10,6 +10,6 @@ int main()
  int cal_tot, cal_point;  
  cin >> cal_tot;
  cal_point = cal_tot * 0.01;
- cout << "Point is" <<cal_point << "Won.\n";
+ cout << name << "Point is" <<cal_point << "Won.\n";
 
 }
