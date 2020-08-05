@@ -1,0 +1,20 @@
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+int *allocate_an_integer() {
+	int i = 0;
+	return &i;
+}
+
+int main() {
+	int *j;
+
+	j = allocate_an_integer();
+	cout << "After j = allocate_an_integer() .. j =" << j;
+
+	int k = *j;
+	cout << "After int k = *j,  k=" << k;
+	return 0;
+}
