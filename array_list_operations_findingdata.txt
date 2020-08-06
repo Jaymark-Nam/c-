@@ -1,0 +1,20 @@
+#finding data in Array and List
+#takes same time!!!
+
+#Array
+Cube target = Cube(400);
+for( unsigned i = 0 ; i < cubes.size() ; i++ ){
+  if(target == cubes[i]){
+  std::cout << "Found target at ["<<i<<"] << std::endl;
+  }
+}
+
+#List
+template <typename T>
+typename List<T>::ListNode *List<T>::_find(const T & data){
+  ListNode *thru = head_;
+  while (thru != nullptr) {
+    if ( thru -> data == data) {return thru; }
+  }
+  return nullptr;
+}
