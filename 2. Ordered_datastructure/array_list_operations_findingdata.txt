@@ -18,3 +18,17 @@ typename List<T>::ListNode *List<T>::_find(const T & data){
   }
   return nullptr;
 }
+
+/*
+;Search
+Unsorted Array : O(n)
+Sorted Array : O(lg(n)) -- using binary search(half slice!)
+All Lists : O(n)
+
+;Insert after/ Delete After ----> insert in the middle of memory block
+Array : O(n)
+List : O(1)
+
+if u want better run time? -> Array
+    ''                 flexibility?-> List
+*/
