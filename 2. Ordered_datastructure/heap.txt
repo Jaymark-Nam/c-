@@ -1,0 +1,21 @@
+Whole bunch of data.
+magical algorythm
+
+
+Priority queue
+we dont need sorted data, cuz it takes long time
+instead we want data structure that can remove minimum value
+ efficiently
+
+
+Heap 
+1. all of our descendants much be larger than our self
+   (we dont care about siblings) 밑이 크다
+2. when we have this tree in memory , we'll store as array
+3. We know our parent is equal to our index divided by two
+
+
+
+Heap insert
+작은게 추가되면 위로 올려버려
+

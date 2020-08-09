@@ -1,0 +1,19 @@
+template <class T>
+void Heap<T>::_insert(const T & key){
+	if( size_ == capacity_ ){      //check the size of array  vs actual capacity of array
+		_growArray();	//if same, we dont have room. grow array
+	}
+	item_[++size] = key;	//item is our array. the size added by one. 
+				//insert key at that location
+	_heapifyUp(size);		//ensure heap property is maintained
+}
+
+template<class T>
+void Heap<T>::_heapifyUp(int index){			//becuz it's size, an index into an array
+	if( index > ){
+		if( item_[index] < item_[parent(index)]) {
+			std::swap(item_[index], item_[parent(index_]);
+			_heapifyUp( Parent(index));
+		}
+	}
+}

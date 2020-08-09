@@ -1,0 +1,64 @@
+//HEAP INSERT
+
+template <class T>
+void Heap<T>::_insert(const T & key){
+	if( size_ == capacity_ ){      //check the size of array  vs actual capacity of array
+		_growArray();	//if same, we dont have room. grow array
+	}
+	item_[++size] = key;	//item is our array. the size added by one. 
+				//insert key at that location
+	_heapifyUp(size);		//ensure heap property is maintained
+}
+
+template<class T>
+void Heap<T>::_heapifyUp(int index){			//becuz it's size, an index into an array
+	if( index > ){
+		if( item_[index] < item_[parent(index)]) {
+			std::swap(item_[index], item_[parent(index_]);
+			_heapifyUp( Parent(index));
+		}
+	}
+}
+
+
+
+
+//HEAP REMOVE
+template <class T>
+void Heap<T>::_removeMin(){
+
+	T minValue = item_[1];
+	item_[1] = item_[size_];
+	size--;
+
+	_heapifyDown();
+	return minValue;
+}
+
+template<class T>
+void Heap<T>::_heapifyDown(int index){
+
+	if(!_isLeaf(index)){
+		T minChildIndex = _minChild(index);
+		if(item_[index] > item_[minChildIndex]) {
+		std::swap(item_[index], item_[minChildIndex]);
+		_heapifyDown(minChildindex);
+		}
+	}
+}
+
+
+
+Heap
+rly efficient
+given any sort of data structure any array representation,
+we canbuild a heap notation of that in just o of n time
+far shorter than sorting the array far shorter than inserting into a binary tree
+
+
+
+Heap Sort
+1. Build heap : O(n)
+2. call n calls of removeIn   O(log(n))
+3. Swap elements to order our list in the proper way(ascend/ descend)
+
