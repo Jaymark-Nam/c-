@@ -1,0 +1,23 @@
+
+#include <iostream>
+#include <fstream>
+#include <istream>
+#include <string>
+
+using namespace std;
+
+
+void swap(int&  first, int  &second)
+{
+	int temp = first;
+	first = second;
+	second = temp;
+}
+int main()
+{
+	int a = 5, b = 15;
+	swap(a, b);
+	cout << a << "  " << b << endl;
+	return 0;
+}
+//why doesnt it work without reference..?
