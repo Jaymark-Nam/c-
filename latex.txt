@@ -1,0 +1,10 @@
+
+\documentclass{article}
+\begin{document}
+\section{Latex}
+I read that knuth devides the people working \newline with \TeX{}
+into \Tex{}nicians and \TeX perts.\\
+{\bf Today} is \today.
+
+\end{document}
+
