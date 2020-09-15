@@ -76,6 +76,5 @@ int main()
 	stack.display();
 	stack.pop();
 	stack.display();
-
 	return 0;
 }

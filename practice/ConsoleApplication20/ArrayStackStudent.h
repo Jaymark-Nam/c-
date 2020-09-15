@@ -5,6 +5,7 @@
 #include <string>
 #include "Student.h"
 #include <stdlib.h>
+using namespace std;
 
 inline void error(char * str)
 {
@@ -28,11 +29,6 @@ public:
 	Student pop();
 	Student peek();
 	void display();
-	friend ostream & operator<< (ostream & os, const StudentStack & data);
 };
 
-ostream& operator<<(ostream& os, const StudentStack& data)
-{
-	os << data.Student::id << '/' << data.name << '/' << data.dept;
-	return os;
-}
+
