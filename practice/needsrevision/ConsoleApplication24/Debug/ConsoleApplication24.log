@@ -1,0 +1,46 @@
+﻿  Node.cpp
+d:\c\consoleapplication24\consoleapplication24\node.h(26): error C2011: 'Node': 'class' type redefinition
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\node.cpp(3): error C2062: type 'int' unexpected
+d:\c\consoleapplication24\consoleapplication24\node.cpp(3): error C2143: syntax error: missing ')' before ','
+d:\c\consoleapplication24\consoleapplication24\node.cpp(3): error C2059: syntax error: ')'
+d:\c\consoleapplication24\consoleapplication24\node.cpp(5): error C2065: 'link': undeclared identifier
+d:\c\consoleapplication24\consoleapplication24\node.cpp(5): error C2059: syntax error: ';'
+d:\c\consoleapplication24\consoleapplication24\node.cpp(6): error C2059: syntax error: '}'
+d:\c\consoleapplication24\consoleapplication24\node.cpp(6): error C2143: syntax error: missing ';' before '}'
+d:\c\consoleapplication24\consoleapplication24\node.cpp(8): error C2143: syntax error: missing ';' before '{'
+d:\c\consoleapplication24\consoleapplication24\node.cpp(8): error C2447: '{': missing function header (old-style formal list?)
+d:\c\consoleapplication24\consoleapplication24\node.cpp(14): error C2065: 'link': undeclared identifier
+d:\c\consoleapplication24\consoleapplication24\node.cpp(19): error C2065: 'link': undeclared identifier
+  LinkedStackMain.cpp
+d:\c\consoleapplication24\consoleapplication24\node.h(26): error C2011: 'Node': 'class' type redefinition
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstack.h(10): error C2523: 'LinkedStack::~LinktedStack': destructor tag mismatch
+d:\c\consoleapplication24\consoleapplication24\linkedstackmain.cpp(6): error C2027: use of undefined type 'Node'
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstackmain.cpp(7): error C2027: use of undefined type 'Node'
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstackmain.cpp(8): error C2027: use of undefined type 'Node'
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstackmain.cpp(10): error C2039: 'display': is not a member of 'LinkedStack'
+  d:\c\consoleapplication24\consoleapplication24\linkedstack.h(5): note: see declaration of 'LinkedStack'
+d:\c\consoleapplication24\consoleapplication24\linkedstackmain.cpp(13): error C2027: use of undefined type 'Node'
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstackmain.cpp(13): error C2227: left of '->display' must point to class/struct/union/generic type
+d:\c\consoleapplication24\consoleapplication24\linkedstackmain.cpp(15): warning C4150: deletion of pointer to incomplete type 'Node'; no destructor called
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstackmain.cpp(16): error C2039: 'display': is not a member of 'LinkedStack'
+  d:\c\consoleapplication24\consoleapplication24\linkedstack.h(5): note: see declaration of 'LinkedStack'
+  LinkedStack.cpp
+d:\c\consoleapplication24\consoleapplication24\node.h(26): error C2011: 'Node': 'class' type redefinition
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstack.h(10): error C2523: 'LinkedStack::~LinktedStack': destructor tag mismatch
+d:\c\consoleapplication24\consoleapplication24\linkedstack.cpp(10): warning C4150: deletion of pointer to incomplete type 'Node'; no destructor called
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstack.cpp(18): error C2027: use of undefined type 'Node'
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstack.cpp(18): error C2227: left of '->setLink' must point to class/struct/union/generic type
+d:\c\consoleapplication24\consoleapplication24\linkedstack.cpp(30): error C2027: use of undefined type 'Node'
+  d:\c\consoleapplication24\consoleapplication24\node.h(9): note: see declaration of 'Node'
+d:\c\consoleapplication24\consoleapplication24\linkedstack.cpp(30): error C2227: left of '->getLink' must point to class/struct/union/generic type
+  Generating Code...
